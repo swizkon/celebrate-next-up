@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'MachineStd';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tangerine'), url('../fonts/MachineStd.otf') format('opentype');
+  }
+/*   
+  body {
+    font-family: 'MachineStd', serif;
+    font-size: 48px;
+  } */
 
 body, div.jumbotron
 {
-    background-color: #ccc;
+    background-color: #aaa;
+    /* background-color: #999; */
 }
 div.jumbotron
 {
@@ -17,7 +29,6 @@ h1, h2, h3, h4 {
     color: #fff;
     text-align: center;
 }
-
 
 @media screen and (max-width: 480px) {
 body, div.jumbotron
